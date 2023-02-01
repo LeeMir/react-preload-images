@@ -1,0 +1,9 @@
+{
+  "name": "react-image-preload",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeeMir/react-image-preload.git",
+  "author": "LeeMir <manofgodmj@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
