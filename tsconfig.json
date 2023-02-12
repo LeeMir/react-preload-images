@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "lib": ["es6", "dom"],
+    "rootDir": "./",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": false,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["./node_modules", "./dist"],
+  "include": ["src", "src/*", "./.eslintrc.json"]
+}

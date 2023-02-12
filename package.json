@@ -1,0 +1,53 @@
+{
+  "name": "react-image-preload",
+  "version": "0.0.0",
+  "repository": "https://github.com/LeeMir/react-image-preload.git",
+  "author": "LeeMir <manofgodmj@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "browser": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && tsc && rollup -c",
+    "lint:code-fix": "eslint --fix --ext .js,.jsx,.ts,.tsx src",
+    "lint:code": "eslint --ext .js,.jsx,.ts,.tsx src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-react-jsx": "^7.20.13",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/prettier": "^2.7.2",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.3",
+    "rollup": "^3.12.0",
+    "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-prettier": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
