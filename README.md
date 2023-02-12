@@ -1,4 +1,4 @@
-# react-image-preload
+# react-preload-images
 
 ## Introduction
 
@@ -27,7 +27,7 @@ interface IImagePreloader {
 
 ```React
 import { Outlet } from 'react-router-dom';
-import { ImagePreloader } from 'react-image-preload';
+import { ImagePreloader } from 'react-preload-images';
 
 import './App.css';
 

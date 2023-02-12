@@ -1,7 +1,8 @@
 {
-  "name": "react-image-preload",
+  "name": "react-preload-images",
   "version": "0.0.0",
-  "repository": "https://github.com/LeeMir/react-image-preload.git",
+  "repository": "https://github.com/LeeMir/react-preload-images.git",
+  "homepage": "https://github.com/LeeMir/react-preload-images",
   "author": "LeeMir <manofgodmj@gmail.com>",
   "license": "MIT",
   "private": true,
@@ -10,6 +11,10 @@
   "module": "./dist/index.es.js",
   "browser": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
+  "keywords": [
+    "react",
+    "image"
+  ],
   "scripts": {
     "build": "rm -rf dist && mkdir dist && tsc && rollup -c",
     "lint:code-fix": "eslint --fix --ext .js,.jsx,.ts,.tsx src",
