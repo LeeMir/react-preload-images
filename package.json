@@ -1,19 +1,25 @@
 {
   "name": "react-preload-images",
-  "version": "0.0.0",
+  "description": "React component for preloading(caching) images",
+  "version": "0.0.1",
   "repository": "https://github.com/LeeMir/react-preload-images.git",
   "homepage": "https://github.com/LeeMir/react-preload-images",
   "author": "LeeMir <manofgodmj@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "type": "module",
   "main": "./dist/index.js",
-  "module": "./dist/index.es.js",
-  "browser": "./dist/index.umd.js",
   "types": "./dist/index.d.ts",
   "keywords": [
     "react",
-    "image"
+    "react-component",
+    "image-preload",
+    "image-cache"
+  ],
+  "files": [
+    "dist/",
+    "LICENSE.md",
+    "README.md"
   ],
   "scripts": {
     "build": "rm -rf dist && mkdir dist && tsc && rollup -c",

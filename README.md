@@ -1,5 +1,9 @@
 # react-preload-images
 
+```bash
+This package is not stable!
+```
+
 ## Introduction
 
 React 이미지 캐싱
